@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Carlos Manager",
+      "email": "manager@test.com",
+      "password": "123456",
+      "role": "manager"
+    },
+    {
+      "id": 2,
+      "name": "Ana Collaborator",
+      "email": "user@test.com",
+      "password": "123456",
+      "role": "collaborator"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Website Redesign",
+      "description": "Complete overhaul of the corporate website with modern UI/UX principles.",
+      "status": "In Progress",
+      "createdAt": "2025-01-15",
+      "assignedTo": 2
+    },
+    {
+      "id": 2,
+      "name": "Mobile App MVP",
+      "description": "Develop the minimum viable product for the company's mobile application.",
+      "status": "Active",
+      "createdAt": "2025-02-10",
+      "assignedTo": 2
+    },
+    {
+      "id": 3,
+      "name": "API Integration",
+      "description": "Integrate third-party payment and logistics APIs into the platform.",
+      "status": "Completed",
+      "createdAt": "2025-01-05",
+      "assignedTo": 1
+    },
+    {
+      "id": 4,
+      "name": "Data Analytics Dashboard",
+      "description": "Build an internal analytics dashboard for business intelligence.",
+      "status": "Active",
+      "createdAt": "2025-03-01",
+      "assignedTo": 1
+    }
+  ]
+}
